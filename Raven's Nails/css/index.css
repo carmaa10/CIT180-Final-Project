@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #484851; */
+    background-image: url("E:/CIT/CIT 180 - HTML and CSS Programming/finalproject/media");
+    background-repeat: none;
+    background-size: 100%;
+    font-family: 'Kalam', cursive;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main main"
+        "footer footer";
+} */
+
+/* MAKE CENTER */
+header{
+    grid-area: header;
+    /* grid-column: 1 / 1;
+    grid-row: 1 / 2; */
+}
+header h1{
+
+    font-family: 'Aguafina Script', cursive;
+    color: #efeddb;
+    /* background-color: #008080; */
+    text-shadow: 5px 5px #127588;
+    margin-bottom: 0px;
+}
+
+nav{
+    grid-area: nav;
+    font-family: 'Kalam', cursive;
+    background-color: #efeddb;
+}
+nav ul li{
+    display: block;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 2px;
+    padding: 3px;
+}
+nav ul li a{  
+    text-decoration: none;    
+}
+
+/* in a hover section, make gradient
+    light: #8DC0D2
+    dark: #8ed2b0
+*/
+
+main{
+    grid-area: main;
+    width: 100%;
+}
+
+section{
+    /* background-color: #484851; */
+    /* background-color: #008080; */
+    padding: 5px;
+}
+
+article{
+    /* background-color: #71eeb8; */
+    /* background-color: #484851; */
+    background-color: #efeddb;
+    padding: 2px;
+}
+
+footer{
+    grid-area: footer;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    background-color: #efeddb;
+}
+
+h1{
+    font-family: 'Aguafina Script', cursive;
+    font-size: 120pt;
+}
+
+p{
+    font-family: 'Kalam', cursive;
+}
+
+img{
+    display: block;
+    /* float: left;
+    clear: right; */
+    margin: 2px;
+    /* vertical-align: middle; */
+}
+
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+} */
+
+.gallery{
+    margin: 5px;
+    float: left;
+    width: auto;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../media/flower_background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small{
+    /* reverse colors from header */
+    margin-top: 0px;
+    font-size: 50pt;
+    background-color: #127588;
+    width: 20%;
+    padding: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+@media screen and (max-width: 450px){
+    img{
+        width: 100%;
+    }
+}
