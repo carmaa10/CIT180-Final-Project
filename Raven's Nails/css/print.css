@@ -1,0 +1,47 @@
+*{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: none;
+    background-color: white;
+    font-size: 12pt;
+    color: black;
+    text-shadow: none;
+}
+
+header h1{
+    color: black;
+    text-shadow: none;
+    font-size: 12pt;
+    width: 100%;
+}
+
+nav{
+    display: none;
+}
+
+p{
+    font-size: 12pt;
+    width: 100%;
+}
+
+h2{
+    font-size: 12pt;
+    width: 100%;
+}
+
+img{
+    display: none;
+}
+
+.small{
+    font-size: 12pt;
+    width: 100%;
+}
+
+a{
+    text-decoration: underline;
+}
